@@ -31,3 +31,5 @@
 - Los componentes deben ser nombrados con la primera letra en mayúscula. Tanto el archivo como el nombre del componente.
 
 - Todos los componentes son *funciones*, todos requieren un *return* y todos requieren un *export default*. Para llamar a los componentes desde la app se puede escribir ej `<Header />`
+
+## Formas de escribir código CSS en React
