@@ -1,9 +1,13 @@
+import Header from './components/Header'
+import Formulario from './components/Formulario'
+
 function App() {
   
   return (
     <>
-      <h1>Hola Mundo</h1>
-      <p>Este es un párrafo</p>
+      <Header />
+      <Formulario />
+
     </>
   )
 }
