@@ -6,7 +6,10 @@
 
 - **Reglas al escribir JSX**
 
--- Si una etiqueta HTML tiene apertura es indispensable agregar el cierre.
--- Existen algunas que son de solo apertura ´<link>´ ´<img>´ o ´<input>´ Estas deberán finalizar con />
--- Cada componente debe de tener un return
--- Debe haber máximo 1 solo elemento en el nivel más alto en ese return. En caso de tener varios, estos deben englobarse en uno solo para que react los pueda procesar. Para evitar que existan muchos divs, en React se puede retornar lo que es un fragment y dejar únicamente   ´<> </>´
+- Si una etiqueta HTML tiene apertura es indispensable agregar el cierre.
+
+- Existen algunas que son de solo apertura ´<link>´ ´<img>´ o ´<input>´ Estas deberán finalizar con />
+
+- Cada componente debe de tener un return
+
+- Debe haber máximo 1 solo elemento en el nivel más alto en ese return. En caso de tener varios, estos deben englobarse en uno solo para que react los pueda procesar. Para evitar que existan muchos divs, en React se puede retornar lo que es un fragment y dejar únicamente   ´<> </>´
