@@ -40,3 +40,9 @@
 - **Componentes**, algunas librerias tienen componentes de React.
 - **SASS**
 - **Styled Components**
+
+- **Tailwind CSS** Framework popupar por paleta de colores definida, fuentes que se ven muy bien, muy bien documentado.
+
+- El nombre de las clases es parecido al de las propiedades de CSS.
+
+- Las directrices de Tailwind empiezan con @tailwind. Este trabaja con clases. Si queremos añadir estilos a un elemento, le asignamos esa clase de tailwind y el estilo se aplicará al elemento html.
