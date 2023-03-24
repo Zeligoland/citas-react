@@ -33,3 +33,10 @@
 - Todos los componentes son *funciones*, todos requieren un *return* y todos requieren un *export default*. Para llamar a los componentes desde la app se puede escribir ej `<Header />`
 
 ## Formas de escribir código CSS en React
+
+- **CSS Plano** 
+- **Framework CSS**, en el HTML es posible poner un enlace hacia un CDN de algún framework de css, tailwind, bootstrap..
+- **Módulos de CSS**
+- **Componentes**, algunas librerias tienen componentes de React.
+- **SASS**
+- **Styled Components**
