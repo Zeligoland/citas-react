@@ -46,3 +46,16 @@
 - El nombre de las clases es parecido al de las propiedades de CSS.
 
 - Las directrices de Tailwind empiezan con @tailwind. Este trabaja con clases. Si queremos añadir estilos a un elemento, le asignamos esa clase de tailwind y el estilo se aplicará al elemento html.
+
+
+## React Hooks
+
+- Son la base de React. Esta cuenta con una API muy sencilla que nos permite crear todo tipo de aplicaciones por medio de algo llamado hooks. Al final, los hooks también son funciones
+
+- Están disponibles desde la versión 16.8. Antes de esto, era necesario crear clases para crear y modificar el state. Con los Hooks no es necesario.
+
+- Se dividen en **Básicos** y **Adicionales**
+
+- Las categorías más conocidas son: `useState` - Pieza central de react, es el "estado" que es una variable con información relevante en nuestra aplicación de React, algunas veces el state pertenece a un componente en específico o algunas veces deseas compartirlo a lo largo de diferentes componentes. `useEffect` `useContext`
+
+- Es posible crear tus propios Hooks, así es posible separar el código en funciones reutilizables y sacar todo el beneficio de lo que React ofrece.
