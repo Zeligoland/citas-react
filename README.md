@@ -59,3 +59,12 @@
 - Las categorías más conocidas son: `useState` - Pieza central de react, es el "estado" que es una variable con información relevante en nuestra aplicación de React, algunas veces el state pertenece a un componente en específico o algunas veces deseas compartirlo a lo largo de diferentes componentes. `useEffect` `useContext`
 
 - Es posible crear tus propios Hooks, así es posible separar el código en funciones reutilizables y sacar todo el beneficio de lo que React ofrece.
+
+## React State
+
+- Es básicamente eso, cuál es el estado de nuestra aplicación, en qué se encuentra la app. Ej, si tengo un carrito de compras, ¿tiene o no tiene productos el carrito? si descargué un listado de clientes.. ¿ya llegó o está vacío, qué pasó con esa descarga?
+
+- Es una variable con información relevante en nuestra aplicación de react. **A veces el state pertenece a un componente en específico o se desea compartir a lo largo de diferentes componentes.**
+
+- `ìmport {useState} from "react" const [cliente, setCliente]= useState({});` -> 1. **cliente** es la variable que contiene el valor del estado, 2. **setCliente** es el modificador, es la función que va a modificar la variable cliente, no puede modificar otros estados, únicamente a ese cliente y 3. **useState({})** Tiene las llaves, lo que quiere decir que es el valor inicial. Por lo tanto este cliente inicia como un objeto vacío. El objeto se irá llenando pero ese es su valor inicial. Se pueden tener múltiples useState por componente. `const [total, setTotal] = useState(0);`
+
