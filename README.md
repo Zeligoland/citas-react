@@ -68,3 +68,12 @@
 
 - `ìmport {useState} from "react" const [cliente, setCliente]= useState({});` -> 1. **cliente** es la variable que contiene el valor del estado, 2. **setCliente** es el modificador, es la función que va a modificar la variable cliente, no puede modificar otros estados, únicamente a ese cliente y 3. **useState({})** Tiene las llaves, lo que quiere decir que es el valor inicial. Por lo tanto este cliente inicia como un objeto vacío. El objeto se irá llenando pero ese es su valor inicial. Se pueden tener múltiples useState por componente. `const [total, setTotal] = useState(0);`
 
+- React reacciona en base al state, cada vez que el state cambia React va a renderizar.
+
+- Para modificar el state, se utiliza la función que está del lado derecho `setCliente, setTotal, setClientes` **Nunca debe ser por asignación**
+
+- Se declara antes del return. En react se edbe actualizar con la función modificadora.
+
+- **Reglas de los Hooks** - Se colocan en la parte superior de los componentes de react. Inmediatamente se crea la función que tiene el nombre del componente ahí van los hooks. No se deben colocar dentro de conficionales o después de un return.
+s
+
