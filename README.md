@@ -75,5 +75,15 @@
 - Se declara antes del return. En react se edbe actualizar con la función modificadora.
 
 - **Reglas de los Hooks** - Se colocan en la parte superior de los componentes de react. Inmediatamente se crea la función que tiene el nombre del componente ahí van los hooks. No se deben colocar dentro de conficionales o después de un return.
-s
 
+## Eventos en React
+
+- Maneja los eventos de forma muy similar a como lo hace JavaScript. De forma _nativa_ con algunos cambios.
+
+- Los eventos **Son camelCase. Ej. en lugar de onchange se utiliza onChange**
+
+- **HTML:** `<button onclick = "descargarPedidos()> Descargar Pedidos </button>"` || **JSX** `<button onClick = {descargarPedidos()}> Descargar Pedidos </button>`
+
+- **HTML:** `<form onsubmit="agregarCliente(); return false"> <button type = "submit"> Submit </button> </form>` || **JSX** `<form onSubmit={handleSubmit}> <button type = "submit"> Añadir Cliente </button> </form>`
+
+- La forma en la que se va declarando el state es mejor hacerla en orden, de esa manera al ver en react developer tools se podrá detectar mejor cada uno.
